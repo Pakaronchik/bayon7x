@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    justify-content: center;
+}
+
+#main{
+    margin: 25px;
+    border-radius: 25px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 540px;
+    background-color: black;
+    align-items: center;
+}
+
+#top_buttons{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+
+.top_button{
+    background-color: rgb(27, 27, 27);
+    border: none;
+    border-radius: 25%;
+    padding: 10px;
+    width: 50px;
+    height: 100%;
+    margin: 10px;
+}
+
+#round_image{
+    border-radius: 50%;
+    width: 100px;
+}
+
+#tiktok_container{
+    width: 480px;
+    height: 280px;
+    background-color: rgb(27, 27, 27);
+    margin: 25px;
+    border-radius: 20px;
+    
+}
+
+#tiktok_image{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    
+    top: 20px;
+    right: -40px;
+    border-radius: 25px;
+
+
+}
+
+#spotify_button{
+    width: 480px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+}
+
+#telegram_button{
+    width: 480px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+}
+
+#popup{
+    display: none;
+    position: fixed;
+    top: 100px;
+    border-radius: 25px;
+    width: 500px;
+    background-color: aliceblue;
+    height: 500px;
+    z-index: 10;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+
+#top_popup{
+    display: flex;
+    justify-content: space-between;
+}
+
+#tiktok_logo:hover{
+    scale: 1.2 1.2;
+    cursor: pointer;
+}
+
+#popup_image{
+    border-radius: 50%;
+    width: 200px;
+}
+
+#copyButton{
+    border: none;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+
+#copiedAlert{
+    display: none;
+}
