@@ -44,7 +44,7 @@ function callback(){
 }
 
 
-const copyText = "https://youtube.com"
+const copyText = "https://bayon7x.vercel.app/"
 function copyLink(){
     navigator.clipboard.writeText(copyText);
 }
