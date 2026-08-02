@@ -121,10 +121,52 @@ body{
 #copiedAlert{
     display: none;
 }
-
 @media(max-width: 600px) {
-    *{
+    /* *{
         transform: scale(0.9, 1);
     }
+    #long_text{
+        font-size: 15px;
+    }
+
+    #spotify_text{
+        font-size: 30px;
+    }
+
+    #tiktok_text{
+        font-size: 30px;
+    }
+
+    #gay_name{
+        font-size: 40px;
+        font-family: Epilogue;
+    }
+    #copiedAlert{
+        margin-bottom: 200px;
+    } */
+
+
+
+    #main{
+        width: 90%;
+    }
+    #tiktok_container{
+        transform: scale(0.8, 0.8);
+    }
+    #spotify_button{
+        transform: scale(0.8, 0.8);
+    }
+    #telegram_button{
+        transform: scale(0.8, 0.8);
+    }
     
+    #popup{
+        transform: scale(0.8, 0.8);
+    }
+
+
+
+    /* *{
+        transform: scale(0.9, 0.9)
+    } */
 }
