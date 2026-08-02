@@ -151,17 +151,17 @@ body{
         width: 95%;
     }
     #tiktok_container{
-        transform: scale(0.8, 0.8);
+        transform: scale(0.75, 0.75);
     }
     #spotify_button{
-        transform: scale(0.8, 0.8);
+        transform: scale(0.75, 0.75);
     }
     #telegram_button{
-        transform: scale(0.8, 0.8);
+        transform: scale(0.75, 0.75);
     }
     
     #popup{
-        transform: scale(0.8, 0.8);
+        transform: scale(0.75, 0.75);
     }
 
 
