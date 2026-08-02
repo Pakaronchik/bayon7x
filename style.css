@@ -121,3 +121,10 @@ body{
 #copiedAlert{
     display: none;
 }
+
+@media(max-width: 600px) {
+    *{
+        transform: scale(0.9, 1);
+    }
+    
+}
